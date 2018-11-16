@@ -1,0 +1,16 @@
+{
+  "name": "risotrip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "netlify deploy --dir=site --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "netlify-cli": "~2.2.1"
+  }
+}

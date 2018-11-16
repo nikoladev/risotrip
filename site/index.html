@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Risotrip</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Risotrip
+      </h1>
+      <p class="subtitle">
+        Riso your life away
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h2>Frequently asked questions</h2>
+        <h3>How awesome are you?</h3>
+        <p>
+          Very awesome.
+        </p>
+        <h3>Will you print my work?</h3>
+        <p>
+          Yes!
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h2>Get in touch!</h2>
+      </div>
+      <form name="contact" method="POST" netlify-honeypot="botsonly" netlify>
+        <p style="display: none;">
+          <label>Don’t fill this out if you're human: <input name="botsonly" /></label>
+        </p>
+
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input
+              class="input"
+              name="name"
+              type="text"
+              placeholder="Your name"
+            >
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input
+              class="input"
+              name="email"
+              type="email"
+              placeholder="Your email"
+            >
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <textarea
+              class="textarea"
+              placeholder="Your message"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <button
+              class="button is-link"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
